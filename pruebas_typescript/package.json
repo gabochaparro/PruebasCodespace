@@ -1,0 +1,17 @@
+{
+  "name": "pruebastypescript",
+  "version": "1.0.0",
+  "description": "Realizar pruebas en typescript",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "probar": "tsc && node ./dist/index.js",
+    "compilar": "tsc",
+    "iniciar": "node dist/index.js"
+  },
+  "author": "GaboChaparro",
+  "license": "ISC",
+  "devDependencies": {
+    "typescript": "^5.9.3"
+  }
+}
