@@ -4,13 +4,13 @@
   "description": "Realizar pruebas en typescript",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "probar": "tsc && node ./dist/index.js",
-    "compilar": "tsc",
-    "iniciar": "node dist/index.js"
+    "build": "tsc",
+    "start": "node dist/index.js"
   },
   "author": "GaboChaparro",
   "license": "ISC",
+  "dependencies": {
+    "express": "^5.2.1"
   "devDependencies": {
     "typescript": "^5.9.3"
   }
